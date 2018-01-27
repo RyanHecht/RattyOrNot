@@ -15,11 +15,6 @@ class Query extends Component {
         alert("You did this date! " + this.state.date + " with this food: " + this.state.food)
         event.preventDefault();
     }
-    handleSubmitTwo(event){
-        alert("You want this food! " + this.state.food)
-
-        event.preventDefault();
-    }
 
     handleChange(event){
         const target = event.target;

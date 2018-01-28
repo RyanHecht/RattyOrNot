@@ -5,15 +5,20 @@ import List from './List.jsx';
 import FilteredList from './FilteredList.jsx';
 import Counter from './Counter.jsx'
 import Item from './Item.jsx'
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'; 
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import GoogleButton from './GoogleButton.jsx';
+
+
 
 class App extends Component{
+
   render(){
     return (
       <div className="App">
         <MuiThemeProvider>
+
           <Query/>
-          <Counter/>
+          <GoogleButton/>
           <FilteredList items={[{name:"Apple"}, {name:"Banana"}, {name:"Candy"}]}/>
         </MuiThemeProvider>
       </div>

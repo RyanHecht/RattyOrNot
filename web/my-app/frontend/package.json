@@ -4,9 +4,10 @@
 	"private": true,
 	"dependencies": {
 		"material-ui": "^0.20.0",
-    		"radium": "^0.21.2",
+		"radium": "^0.21.2",
 		"react": "^16.2.0",
 		"react-dom": "^16.2.0",
+		"react-google-login": "^3.0.4",
 		"react-scripts": "1.1.0"
 	},
 	"scripts": {

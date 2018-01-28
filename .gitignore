@@ -1,2 +1,4 @@
 scraping/data.json
 scraping/test.db
+scraping/json/*
+scraping/secrets.txt

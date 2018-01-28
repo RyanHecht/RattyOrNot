@@ -16,4 +16,20 @@ function getInfo(req, res) {
   });
 }
 
+function getEateries(req, res) {
+
+}
+
+function getItems(req, res) {
+
+}
+
+function getMenu(req, res) {
+
+}
+
+function getWhen(req, res) {
+
+}
+
 export default router;

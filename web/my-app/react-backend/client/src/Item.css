@@ -1,0 +1,12 @@
+
+.cardtext{
+  background-color:pink;
+}
+
+.card{
+  padding:10px;
+  width:500px;
+  display: inline-block;
+  white-space: nowrap;
+
+}

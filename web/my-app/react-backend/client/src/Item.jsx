@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Radium from 'radium';
+import './Item.css';
 import {Card, CardActions, CardHeader, CardMedia, CardTitle, CardText} from 'material-ui/Card';
 
 class Item extends Component{
@@ -10,12 +11,12 @@ class Item extends Component{
 
     render(){
         return (
-            <div>
+            <div className="card">
               <Card>
                 <CardTitle
                   title={this.props.name}
                 />
-              <CardText>
+                <CardText className="cardtext">
             {this.props.vegan ? (<p>Vegan</p>) : null}
             {this.props.vegetarian ? (<p>Vegetarian</p>) : null}
             {this.props.glutenfree ? (<p>Gluten Free</p>) : null}

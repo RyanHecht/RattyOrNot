@@ -2,3 +2,5 @@ scraping/data.json
 scraping/test.db
 scraping/json/*
 scraping/secrets.txt
+web/react-backend
+web/frontend/node_modules

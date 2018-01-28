@@ -25,7 +25,8 @@ class FilteredList extends Component {
    render() {
        return (
            <div className="filter-list">
-               <h1>Produce Search</h1>
+                <h1>Food Search!</h1>
+                <p>Set the parameters and type in what you would like to eat for food</p>
                <input type="text" placeholder="Search" onChange={this.onSearch} />
 
                 {/*

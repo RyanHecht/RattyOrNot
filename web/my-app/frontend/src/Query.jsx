@@ -28,7 +28,7 @@ class Query extends Component {
     render(){
         return (
         <div>
-         <h1>Query Page</h1>
+         <h1>Food Search</h1>
             <p>We can have this to query a date, to get a complete listing of all the food</p>
             <form onSubmit={this.handleSubmit}>
                 Start Date: 

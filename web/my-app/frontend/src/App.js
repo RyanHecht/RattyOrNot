@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Query from './Query.jsx';
+import Banner from './Banner.jsx';
 import List from './List.jsx';
 import FilteredList from './FilteredList.jsx';
 import Counter from './Counter.jsx'
@@ -12,9 +13,8 @@ class App extends Component{
     return (
       <div className="App">
         <MuiThemeProvider>
-          <Query/>
-          <Counter/>
-          <FilteredList items={[{name:"Apple"}, {name:"Banana"}, {name:"Candy"}]}/>
+          <Banner/>
+          <FilteredList items={[{name:"Apple"}, {name:"Banana"}, {name:"Candy"}, {name:"Donuts"}, {name:"Eggs"}]}/>
         </MuiThemeProvider>
       </div>
     )

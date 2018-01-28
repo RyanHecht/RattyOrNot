@@ -1,0 +1,33 @@
+.menubutton{
+    font-size: 30px;
+    background: transparent;
+    outline: transparent;
+    border:none;
+    cursor: pointer;
+    padding:10px;
+    padding-bottom: 3px;
+
+}
+.menubutton:hover{
+    background:rgb(255, 100, 100);
+ 
+ }
+ 
+
+
+.Topbar{
+    background-color:rgb(255,100,100);
+}
+.bar{
+    background-color: transparent;
+    /* rgb(255, 200, 200);*/
+    /*box-sizing: border-box; */
+    height: 56px; 
+    padding: 0px 24px; 
+    display: flex; 
+    position:fixed;
+    top:0;
+    /*justify-content: space-between;*/
+}
+
+
